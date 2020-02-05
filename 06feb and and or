@@ -1,0 +1,4 @@
+  if ((selectedPot == 1 && total == 0) || total >= 4) {
+    document.getElementById("resultText").innerHTML =
+      "Voor een hoornje minimum 1 ball kiezen en maxima 3. ";
+  } else if (selectedPot == 1 && total >= 1 && total <= 3) {
